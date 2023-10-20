@@ -46,7 +46,9 @@ h1:hover, .selected {
 }
 
 nav {
-
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
 }
 
 main {
@@ -61,8 +63,9 @@ main {
 footer {
     width: 15.43788rem;
     height: 4rem;
-    margin: 44 10 7 23rem;
+    display: flex;
     align-items: right;
+    margin:auto;
 }
 
 
