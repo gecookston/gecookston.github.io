@@ -39,7 +39,6 @@ header {
 a {
     text-decoration: none;
     color:#000;
-    
 }
 
 h1:hover, .selected {
@@ -65,7 +64,6 @@ footer {
     margin: 44 10 7 23rem;
     align-items: right;
 }
-
 
 
 h2 {
@@ -106,4 +104,8 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.starbody {
+    background-image: url(img/starbackground_gcookston.png);
 }
