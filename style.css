@@ -2,17 +2,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html {
-
+    font-size: 16px;
 }
 
 body {
-    margin: 0;
-    font-family: 'Courier Prime', monospace;
+    margin: 5rem auto;
     background-color:#615E5A ;
+    width: 70.5rem;
+    height: 3rem;
+    line-height: 1.5;
+    color:#E6E6E6;
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.backgroundimage { 
+    background-image: ;
 }
 
 header {
+    h1 {
+        margin-top:6rem;
+        margin-bottom:3rem;
+        color:#000;
+        font-family: 'Courier Prime';
+        font-size: 1.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;    
+        text-decoration: none;
+    }
+}
 
+a {
+    text-decoration: none;
+    color:#000;
+    
+}
+
+h1:hover, .selected {
+    color: #B0C5C7;
 }
 
 nav {
@@ -20,9 +51,59 @@ nav {
 }
 
 main {
-
+    color: var(--primary-light-gray, #E6E6E6);
+    font-family: Courier Prime;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 footer {
+    width: 15.43788rem;
+    height: 4rem;
+    margin: 44 10 7 23rem;
+    align-items: right;
+}
 
+
+
+h2 {
+    color: var(--primary-light-gray, #E6E6E6);
+    font-family: Courier Prime;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3 {
+    color:#E6E6E6;
+    text-align: right;
+    font-family: 'Courier Prime';
+    font-size: 1.875rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.date {
+    color:#B0C5C7;
+    text-align: right;
+    font-family: 'Courier Prime';
+    font-size: 1.875rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.description {
+    color: #B0C5C7;
+    font-family: 'Courier Prime';
+    text-align: right;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
