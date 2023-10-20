@@ -23,6 +23,7 @@ body {
 }
 
 header {
+    
     h1 {
         margin-top:6rem;
         margin-bottom:3rem;
@@ -111,4 +112,10 @@ h3 {
 
 .starbody {
     background-image: url(img/starbackground_gcookston.png);
+}
+
+.logo {
+    display: flex;
+    margin: auto;
+
 }
