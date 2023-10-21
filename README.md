@@ -1,1 +1,0 @@
-# gecookston.github.io
