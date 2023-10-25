@@ -18,6 +18,15 @@ body {
     line-height: normal;
 }
 
+section {
+    margin: 8.25rem auto;
+    display: grid;
+    grid-template-columns: repeat (12,1fr);
+    grid-column-gap: 1.5rem;
+    grid-auto-flow:dense;
+}
+
+
 .backgroundimage { 
     background-image: ;
 }
@@ -116,4 +125,34 @@ h3 {
 .logo {
     display: flex;
     margin: auto;
+}
+
+.page_title {
+    text-align:center;
+    grid-column: 1/12;
+}
+
+.image_left {
+    grid-column: 1/8;
+}
+
+.description_right {
+    grid-column: 9/12;
+}
+.description_left{
+    grid-column: 1/4;
+    margin-top: 5rem;
+}
+
+.image_right {
+    grid-column: 5/12;
+}
+
+.self_image {   
+    grid-column: 1/7;
+    max-width: 500px;
+}
+
+.about_me {
+    grid-column: 8/12;
 }
