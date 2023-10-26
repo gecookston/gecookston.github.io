@@ -242,8 +242,12 @@ input:focus, textarea:focus {
 }
   
 .text {
-    background-color: #D1AB7A ;
+    background-color: #D1AB7A;
     color: black;
     font-size: 16px;
     padding: 16px 32px;––
+}
+
+#email {
+    color:#D1AB7A;
 }
