@@ -57,7 +57,8 @@ h1:hover, .selected {
 nav {
     display: flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content:space-between;
+    font-size: 1.5rem;
 }
 
 main {
@@ -81,7 +82,7 @@ footer {
 h2 {
     color: var(--primary-light-gray, #E6E6E6);
     font-family: Courier Prime;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -89,7 +90,6 @@ h2 {
 
 h3 {
     color:#E6E6E6;
-    text-align: right;
     font-family: 'Courier Prime';
     font-size: 1.875rem;
     font-style: italic;
@@ -100,10 +100,9 @@ h3 {
 
 .date {
     color:#B0C5C7;
-    text-align: right;
     font-family: 'Courier Prime';
     font-size: 1.875rem;
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
@@ -111,7 +110,6 @@ h3 {
 .description {
     color: #B0C5C7;
     font-family: 'Courier Prime';
-    text-align: right;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
@@ -137,28 +135,24 @@ h3 {
 }
 
 .description_right {
+    margin-top: 5rem;
     grid-column: 9/12;
+    text-align:left;
 }
 .description_left{
-    grid-column: 1/4;
     margin-top: 5rem;
+    grid-column: 1/7;
+    text-align: right;
 }
 
 .image_right {
-    grid-column: 5/12;
+    grid-column: 11/12;
 }
 
 #self_image {   
-    grid-column: 1/7;
-    max-width: 500px;
+    grid-column: 1/9;
+    text-align:center;
 }
 
-#about_me {
-    grid-column: 8/12;
-}
-
-#hugging {
-    grid-column: 12/12
-}
 
 
