@@ -38,10 +38,31 @@
         </header>
         <main>
             <section>
-                <div class="page_title">
-                    Please reach out to me through email <a href="mailto: grace.cookston@gmail.com"> here </a> ,,,I’d love to work with you!
-                    <img src="img/hugging ppl.png" alt="Pen sketch of two people hugging">
-            </div>
+                <div id="contact_me">
+                    Please reach out to me through email <a href="mailto: grace.cookston@gmail.com"> here </a>, or through the form below. I’d love to work with you!
+                </div>
+            </section>
+            <section>
+                <form
+                    action="https://formspree.io/f/xoqoryjw"
+                    method="POST"
+                    >
+                    <label>
+                        Your name:
+                        <input type="name" name="name">
+                    </label>
+                    <label>
+                        Your email:
+                        <input type="email" name="email">
+                    </label>
+                    <label>
+                        Your message:
+                        <textarea name="message"></textarea>
+                    </label>
+                    <button id=submit type="submit">Send</button>
+
+                    <button id="reset" type="reset">Reset</button>
+                </form>
             </section>
         </main>
         <footer>
