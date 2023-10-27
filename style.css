@@ -251,3 +251,10 @@ input:focus, textarea:focus {
 #email {
     color:#D1AB7A;
 }
+
+#home_art {
+    display: flex;
+    margin: auto;
+    width:100%
+}
+
