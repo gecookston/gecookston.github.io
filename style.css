@@ -26,11 +26,6 @@ section {
     grid-auto-flow:dense;
 }
 
-
-.backgroundimage { 
-    background-image: ;
-}
-
 header {
     h1 {
         margin-top:6rem;
@@ -257,5 +252,15 @@ input:focus, textarea:focus {
     display: flex;
     margin: auto;
     width:100%
+}
+
+@media screen and (max-width:600px) { 
+
+    nav a {
+        width: 10%;
+        font-size: .5em;
+        padding 1%;
+    }
+   
 }
 
